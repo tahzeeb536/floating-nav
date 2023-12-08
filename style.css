@@ -16,6 +16,10 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 #main {
   width: 100vw;
   height: 2000px;
