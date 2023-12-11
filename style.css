@@ -20,6 +20,13 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+#site-loader {
+  position: fixed;
+  top: 0;
+  left: -10%;
+  z-index: 9;
+}
+
 #main {
   width: 100vw;
   height: 2000px;
